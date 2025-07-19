@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "school-of-decima/php-tools",
+  "description": "A suit of simple php tools for learning purpose",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "SchoolOfDecima\\PhpTools\\": "src/"
+    },
+    "files": [
+      "src/functions/concreteStructures.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "decima",
+      "email": "h.larget@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">5.5"
+  }
+}
